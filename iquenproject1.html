@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IquenMarbaBsit-2D</title>
+    <link rel="stylesheet" href="iquenproject1.css" />
+  </head>
+  <body>
+    <video src="codesnapPic/gojo.mp4" autoplay loop playsinline muted></video>
+    <header>
+      <p>Activity #1</p>
+      <h1>Random Generator</h1>
+    </header>
+    <div id="boxdog" class="box">
+      <button id="btntitledog" class="title">Dogs</button>
+      <div class="divimage">
+        <p class="titlecenter" id="dogs">Generate Doggy</p>
+      </div>
+      <button class="buttons" id="btn1" onclick="generate()">Click here</button>
+    </div>
+    <div id="boxcat" class="box">
+      <button id="btntitlecats" class="title">Cats</button>
+
+      <div class="divimage">
+        <p class="titlecenter" id="cats">Generate cats</p>
+      </div>
+      <button class="buttons" id="btn2" onclick="catsfunction()">
+        Click here
+      </button>
+    </div>
+    <div id="boxquote" class="box">
+      <button id="btntitlequote" class="title">Quotes</button>
+
+      <div class="divimage">
+        <p class="titlecenter" id="quotes">Generate quotes</p>
+        <p id="author"></p>
+      </div>
+
+      <button class="buttons" id="btn3" onclick="quotesgenerate()">
+        Click here
+      </button>
+    </div>
+    <button id="showboxs" class="showboxs">Show All</button>
+    <footer>
+      <marquee behavior="" direction="left" height="90px" width="90%"
+        ><div class="name">
+          <p id="displayname">
+            SUBMITTED BY:IQUEN MARBA BSIT - 2D<a
+              id="pic"
+              href="https://www.facebook.com/iquen.marba.7/"
+              ><img
+                id="profile"
+                src="codesnapPic/pp.jpg"
+                height="40px"
+                width="40px"
+            /></a>
+          </p>
+          <img
+            id="marqimg"
+            src="https://media.tenor.com/lKfFq47N6LYAAAAj/gojo-yuji-transparent-gojo.gif"
+            alt=""
+          />
+        </div>
+        <div class="footerbtn">
+          <button class="btnfoot" id="btnf1">1</button>
+          <button class="btnfoot" id="btnf2">2</button>
+          <button class="btnfoot" id="btnf3">3</button>
+        </div></marquee
+      >
+    </footer>
+  </body>
+  <script src="iquenproject1.js"></script>
+</html>
